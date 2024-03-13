@@ -13,11 +13,14 @@ public class Main {
         LOGGER.warn("Some messange {}", 123);
         LOGGER.error("Some messange {}", 123);
 
-        try {
-            method1();
-        } catch (Exception ex) {
-            LOGGER.error("Exception was thrown", ex);
-        }
+        Logger1.log1();
+        Logger2.log2();
+
+//        try {
+//            method1();
+//        } catch (Exception ex) {
+//            LOGGER.error("Exception was thrown", ex);
+//        }
     }
 
     private static void method1() {
