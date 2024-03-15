@@ -13,8 +13,7 @@ public class Main {
         LOGGER.warn("Some messange {}", 123);
         LOGGER.error("Some messange {}", 123);
 
-        Logger1.log1();
-        Logger2.log2();
+        LoggerLoop.log();
 
 //        try {
 //            method1();
