@@ -32,7 +32,7 @@
         </encoder>
     </appender>
 
-    <logger name="pl.zajavka.LoggerLoop" level="debug" additivity="false">
+    <logger name="pl.zajavka.miniProject" level="debug" additivity="false">
         <appender-ref ref="FILE-ROLLING"/>
     </logger>
 
