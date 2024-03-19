@@ -1,0 +1,29 @@
+2024-03-19 11:07:07.311 [main] INFO  pl.zajavka.miniProject.BankService - new account created, ID: 1, owner: Karol Janowski, balance: 1000
+2024-03-19 11:07:07.312 [main] INFO  pl.zajavka.miniProject.BankService - new account created, ID: 2, owner: Marcel Kawalec, balance: 5000
+2024-03-19 11:07:07.312 [main] INFO  pl.zajavka.miniProject.BankService - new account created, ID: 3, owner: Milosz Grabowski, balance: 2500
+2024-03-19 11:07:07.312 [main] INFO  pl.zajavka.miniProject.BankService - new account created, ID: 4, owner: Janusz Transportu, balance: 500
+2024-03-19 11:07:07.313 [main] INFO  pl.zajavka.miniProject.BankService - Transfer succeded, senderID: 1, reciverID: 4. moneyAmmount: 500
+2024-03-19 11:12:27.929 [main] INFO  pl.zajavka.miniProject.BankService - new account created, ID: 1, owner: Karol Janowski, balance: 1000
+2024-03-19 11:12:27.930 [main] INFO  pl.zajavka.miniProject.BankService - new account created, ID: 2, owner: Marcel Kawalec, balance: 5000
+2024-03-19 11:12:27.930 [main] INFO  pl.zajavka.miniProject.BankService - new account created, ID: 3, owner: Milosz Grabowski, balance: 2500
+2024-03-19 11:12:27.930 [main] INFO  pl.zajavka.miniProject.BankService - new account created, ID: 4, owner: Janusz Transportu, balance: 500
+2024-03-19 11:12:27.932 [main] INFO  pl.zajavka.miniProject.BankService - Transfer succeded, senderID: 1, reciverID: 4. moneyAmmount: 500
+2024-03-19 11:12:34.730 [main] INFO  pl.zajavka.miniProject.BankService - new account created, ID: 1, owner: Karol Janowski, balance: 1000
+2024-03-19 11:12:34.731 [main] INFO  pl.zajavka.miniProject.BankService - new account created, ID: 2, owner: Marcel Kawalec, balance: 5000
+2024-03-19 11:12:34.731 [main] INFO  pl.zajavka.miniProject.BankService - new account created, ID: 3, owner: Milosz Grabowski, balance: 2500
+2024-03-19 11:12:34.731 [main] INFO  pl.zajavka.miniProject.BankService - new account created, ID: 4, owner: Janusz Transportu, balance: 500
+2024-03-19 11:12:45.622 [main] INFO  pl.zajavka.miniProject.BankService - new account created, ID: 1, owner: Karol Janowski, balance: 1000
+2024-03-19 11:12:45.624 [main] INFO  pl.zajavka.miniProject.BankService - new account created, ID: 2, owner: Marcel Kawalec, balance: 5000
+2024-03-19 11:12:45.624 [main] INFO  pl.zajavka.miniProject.BankService - new account created, ID: 3, owner: Milosz Grabowski, balance: 2500
+2024-03-19 11:12:45.624 [main] INFO  pl.zajavka.miniProject.BankService - new account created, ID: 4, owner: Janusz Transportu, balance: 500
+2024-03-19 11:12:45.625 [main] INFO  pl.zajavka.miniProject.BankService - Transfer succeded, senderID: 1, reciverID: 4. moneyAmmount: 500
+2024-03-19 11:13:02.303 [main] INFO  pl.zajavka.miniProject.BankService - new account created, ID: 1, owner: Karol Janowski, balance: 1000
+2024-03-19 11:13:02.304 [main] INFO  pl.zajavka.miniProject.BankService - new account created, ID: 2, owner: Marcel Kawalec, balance: 5000
+2024-03-19 11:13:02.305 [main] INFO  pl.zajavka.miniProject.BankService - new account created, ID: 3, owner: Milosz Grabowski, balance: 2500
+2024-03-19 11:13:02.305 [main] INFO  pl.zajavka.miniProject.BankService - new account created, ID: 4, owner: Janusz Transportu, balance: 500
+2024-03-19 11:13:02.306 [main] INFO  pl.zajavka.miniProject.BankService - Transfer succeded, senderID: 1, reciverID: 4. moneyAmmount: 500
+2024-03-19 11:13:28.383 [main] INFO  pl.zajavka.miniProject.BankService - new account created, ID: 1, owner: Karol Janowski, balance: 1000
+2024-03-19 11:13:28.384 [main] INFO  pl.zajavka.miniProject.BankService - new account created, ID: 2, owner: Marcel Kawalec, balance: 5000
+2024-03-19 11:13:28.384 [main] INFO  pl.zajavka.miniProject.BankService - new account created, ID: 3, owner: Milosz Grabowski, balance: 2500
+2024-03-19 11:13:28.384 [main] INFO  pl.zajavka.miniProject.BankService - new account created, ID: 4, owner: Janusz Transportu, balance: 500
+2024-03-19 11:13:28.386 [main] INFO  pl.zajavka.miniProject.BankService - Transfer succeded, senderID: 1, reciverID: 4. moneyAmmount: 500
