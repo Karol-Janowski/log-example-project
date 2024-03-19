@@ -6,7 +6,6 @@ import lombok.extern.slf4j.Slf4j;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 @Slf4j
 public class BankService {
@@ -64,29 +63,26 @@ public class BankService {
         }
     }
 
-    public static void transferMoney(Long senderID, Long reciverID, BigDecimal money) {
+    public static void transferMoney(Long senderID, Long reciverID, BigDecimal money) throws BankException {
         BankAccount senderBankAccount = bankAccountsList.stream()
                 .filter(bankAccount -> bankAccount.getID().equals(senderID))
                 .findFirst()
-                .orElseThrow(() -> new RuntimeException("Sender ID not found"));
+                .orElseThrow(() -> new BankException("Sender ID not found"));
 
         BankAccount reciverBankAccount = bankAccountsList.stream()
                 .filter(bankAccount -> bankAccount.getID().equals(reciverID))
                 .findFirst()
-                .orElseThrow(() -> new RuntimeException("Reciver ID not found"));
+                .orElseThrow(() -> new BankException("Reciver ID not found"));
 
-        try {
-            if (senderBankAccount != null && reciverBankAccount != null) {
-                senderBankAccount.setBalance(senderBankAccount.getBalance().subtract(money));
-                reciverBankAccount.setBalance(reciverBankAccount.getBalance().add(money));
-                log.info("Transfer succeded, senderID: {}, reciverID: {}. moneyAmmount: {}", senderID, reciverID, money);
-            } else {
-                log.error("Transfer failed, senderID: {}, reciverID: {}. moneyAmmount: {}", senderID, reciverID, money);
-                System.err.println("Transfer failed");
 
-            }
-        } catch (Exception e) {
-            throw new RuntimeException(e);
+        if (senderBankAccount != null && reciverBankAccount != null) {
+            senderBankAccount.setBalance(senderBankAccount.getBalance().subtract(money));
+            reciverBankAccount.setBalance(reciverBankAccount.getBalance().add(money));
+            log.info("Transfer succeded, senderID: {}, reciverID: {}. moneyAmmount: {}", senderID, reciverID, money);
+        } else {
+            log.error("Transfer failed, senderID: {}, reciverID: {}. moneyAmmount: {}", senderID, reciverID, money);
+            System.err.println("Transfer failed");
+
         }
     }
 }
